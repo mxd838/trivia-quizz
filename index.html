@@ -11,51 +11,57 @@
 <body>
     <div class="container">
         <h1>Trivia Quizz</h1>
-        <form class="choices">
-            <label for="categories">Category :</label>
-            <select name="categories" id="categories">
-                <option value="#" selected>-- Choose categories--</option>
-                <option value="all">All Categories</option>
-                <optgroup label="General Knowledge">
-                    <option value="all-gk">All Categories of General Knowledge</option>
-                    <option value="gk-all">All of General Knowledge</option>
-                    <option value="history">History</option>
-                    <option value="geography">Geography</option>
-                    <option value="politics">Politics</option>
-                    <option value="art">Art</option>
-                    <option value="sports">Sports</option>
-                    <option value="mythology">Mythology</option>
-                    <option value="celebrities">Celebrities</option>
-                    <option value="animals">Animals</option>
-                    <option value="vehicles">Vehicles</option>
-                    <!-- Categorized as 'General Knowledge' in the API  : -->
-                    <option value="trivia">Trivia</option>
-                </optgroup>
-                
-                <optgroup label="Entertainment">
-                    <option value="all-entertainment">All Categories of Entertainment</option>
-                    <option value="books">Books</option>
-                    <option value="film">Film</option>
-                    <option value="music">Music</option>
-                    <option value="musicals-theatres">Musicals & Theatres</option>
-                    <option value="television">Television</option>
-                    <option value="video-games">Video Games</option>
-                    <option value="board-games">Board Games</option>
-                    <option value="comics">Comics</option>
-                    <option value="anime-manga">Japanese Anime & Manga</option>
-                    <option value="cartoon-animations">Cartoon & Animations</option>
-                </optgroup>
-                
-                <optgroup label="Science">
-                    <option value="all-science">All Categories of Science</option>
-                    <option value="science-nature">Science & Nature</option>
-                    <option value="computers">Computers</option>
-                    <option value="mathematics">Mathematics</option>
-                    <option value="gadgets">Gadgets</option>
-                </optgroup>
-            </select>
+        <!-- <form class="choices">
+            <div class="categories">
+                <label for="categories">Category :</label>
+                <select name="categories" id="categories" multiple>
+                    <option value="#" selected>-- Choose categories--</option>
+                    <option value="all">All Categories</option>
+                    <optgroup label="General Knowledge">
+                        <option value="all-gk">All Categories of General Knowledge</option>
+                        <option value="gk-all">All of General Knowledge</option>
+                        <option value="history">History</option>
+                        <option value="geography">Geography</option>
+                        <option value="politics">Politics</option>
+                        <option value="art">Art</option>
+                        <option value="sports">Sports</option>
+                        <option value="mythology">Mythology</option>
+                        <option value="celebrities">Celebrities</option>
+                        <option value="animals">Animals</option>
+                        <option value="vehicles">Vehicles</option>
+                        <option value="trivia">Trivia</option>
+                    </optgroup>
+                    
+                    <optgroup label="Entertainment">
+                        <option value="all-entertainment">All Categories of Entertainment</option>
+                        <option value="books">Books</option>
+                        <option value="film">Film</option>
+                        <option value="music">Music</option>
+                        <option value="musicals-theatres">Musicals & Theatres</option>
+                        <option value="television">Television</option>
+                        <option value="video-games">Video Games</option>
+                        <option value="board-games">Board Games</option>
+                        <option value="comics">Comics</option>
+                        <option value="anime-manga">Japanese Anime & Manga</option>
+                        <option value="cartoon-animations">Cartoon & Animations</option>
+                    </optgroup>
+                    
+                    <optgroup label="Science">
+                        <option value="all-science">All Categories of Science</option>
+                        <option value="science-nature">Science & Nature</option>
+                        <option value="computers">Computers</option>
+                        <option value="mathematics">Mathematics</option>
+                        <option value="gadgets">Gadgets</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="difficulty">
+                <input type="radio" name="difficulty" id="easy"><label for="easy">Easy</label>
+                <input type="radio" name="difficulty" id="medium"><label for="medium">Medium</label>
+                <input type="radio" name="difficulty" id="hard"><label for="hard">Hard</label>
+            </div>
         </form>
-        <div class="categories-selected"></div>
+        <div class="categories-selected"></div> -->
         <form class="questions">
             <div class="questions-cards"></div>
             <button type="submit">Valider</button>
